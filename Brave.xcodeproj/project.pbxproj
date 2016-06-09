@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170C2A591D014A79005B9637 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A581D014A79005B9637 /* DataService.swift */; };
+		170C2A5B1D014A80005B9637 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A5A1D014A80005B9637 /* Constants.swift */; };
+		170C2A601D014A8A005B9637 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 170C2A5C1D014A8A005B9637 /* NotoSans-Bold.ttf */; };
+		170C2A611D014A8A005B9637 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 170C2A5D1D014A8A005B9637 /* NotoSans-BoldItalic.ttf */; };
+		170C2A621D014A8A005B9637 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 170C2A5E1D014A8A005B9637 /* NotoSans-Italic.ttf */; };
+		170C2A631D014A8A005B9637 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 170C2A5F1D014A8A005B9637 /* NotoSans-Regular.ttf */; };
+		170C2A651D014A9C005B9637 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A641D014A9C005B9637 /* Post.swift */; };
+		170C2A6A1D014AAC005B9637 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A661D014AAC005B9637 /* MaterialView.swift */; };
+		170C2A6B1D014AAC005B9637 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A671D014AAC005B9637 /* MaterialButton.swift */; };
+		170C2A6C1D014AAC005B9637 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A681D014AAC005B9637 /* MaterialTextField.swift */; };
+		170C2A6D1D014AAC005B9637 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A691D014AAC005B9637 /* PostCell.swift */; };
+		170C2A6F1D014AC1005B9637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A6E1D014AC1005B9637 /* ViewController.swift */; };
+		170C2A711D014AD4005B9637 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A701D014AD4005B9637 /* FeedVC.swift */; };
+		1799ADA81D01FD3600E3B158 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1799ADA51D01FD3600E3B158 /* Bolts.framework */; };
+		1799ADA91D01FD3600E3B158 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1799ADA61D01FD3600E3B158 /* FBSDKCoreKit.framework */; };
+		1799ADAA1D01FD3600E3B158 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1799ADA71D01FD3600E3B158 /* FBSDKLoginKit.framework */; };
+		1799ADAC1D01FE0200E3B158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1799ADAB1D01FE0200E3B158 /* GoogleService-Info.plist */; };
+		1799ADB81D022F8C00E3B158 /* BraveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799ADB71D022F8C00E3B158 /* BraveTests.swift */; };
+		1799ADC61D022F9600E3B158 /* BraveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799ADC51D022F9600E3B158 /* BraveUITests.swift */; };
+		1799ADDB1D0636C500E3B158 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799ADDA1D0636C500E3B158 /* Default-568h@2x.png */; };
+		208B2C8FBC805E63C0BC2D80 /* Pods_Brave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C288401AE81049D727D4E1F9 /* Pods_Brave.framework */; };
+		72E76DA01C9AEF7800324565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E76D9F1C9AEF7800324565 /* AppDelegate.swift */; };
+		72E76DA21C9AEF7800324565 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E76DA11C9AEF7800324565 /* Home.swift */; };
+		72E76DA51C9AEF7800324565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DA31C9AEF7800324565 /* Main.storyboard */; };
+		72E76DA71C9AEF7800324565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DA61C9AEF7800324565 /* Assets.xcassets */; };
+		72E76DB21C9AF28F00324565 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E76DB11C9AF28F00324565 /* Configs.swift */; };
+		72E76DB41C9AF2AB00324565 /* SocialList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E76DB31C9AF2AB00324565 /* SocialList.swift */; };
+		72E76DC81C9AFE9C00324565 /* Titillium-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DB81C9AFE9C00324565 /* Titillium-Black.otf */; };
+		72E76DC91C9AFE9C00324565 /* Titillium-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DB91C9AFE9C00324565 /* Titillium-Bold.otf */; };
+		72E76DCA1C9AFE9C00324565 /* Titillium-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DBA1C9AFE9C00324565 /* Titillium-BoldItalic.otf */; };
+		72E76DCB1C9AFE9C00324565 /* Titillium-BoldUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DBB1C9AFE9C00324565 /* Titillium-BoldUpright.otf */; };
+		72E76DCC1C9AFE9C00324565 /* Titillium-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DBC1C9AFE9C00324565 /* Titillium-Light.otf */; };
+		72E76DCD1C9AFE9C00324565 /* Titillium-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DBD1C9AFE9C00324565 /* Titillium-LightItalic.otf */; };
+		72E76DCE1C9AFE9C00324565 /* Titillium-LightUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DBE1C9AFE9C00324565 /* Titillium-LightUpright.otf */; };
+		72E76DCF1C9AFE9C00324565 /* Titillium-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DBF1C9AFE9C00324565 /* Titillium-Regular.otf */; };
+		72E76DD01C9AFE9C00324565 /* Titillium-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DC01C9AFE9C00324565 /* Titillium-RegularItalic.otf */; };
+		72E76DD11C9AFE9C00324565 /* Titillium-RegularUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DC11C9AFE9C00324565 /* Titillium-RegularUpright.otf */; };
+		72E76DD21C9AFE9C00324565 /* Titillium-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DC21C9AFE9C00324565 /* Titillium-Semibold.otf */; };
+		72E76DD31C9AFE9C00324565 /* Titillium-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DC31C9AFE9C00324565 /* Titillium-SemiboldItalic.otf */; };
+		72E76DD41C9AFE9C00324565 /* Titillium-SemiboldUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DC41C9AFE9C00324565 /* Titillium-SemiboldUpright.otf */; };
+		72E76DD51C9AFE9C00324565 /* Titillium-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DC51C9AFE9C00324565 /* Titillium-Thin.otf */; };
+		72E76DD61C9AFE9C00324565 /* Titillium-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DC61C9AFE9C00324565 /* Titillium-ThinItalic.otf */; };
+		72E76DD71C9AFE9C00324565 /* Titillium-ThinUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DC71C9AFE9C00324565 /* Titillium-ThinUpright.otf */; };
+		72E76DD91C9B12E200324565 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DD81C9B12E200324565 /* GoogleMobileAds.framework */; };
+		72E76DDB1C9B135100324565 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DDA1C9B135100324565 /* AdSupport.framework */; };
+		72E76DDD1C9B135600324565 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DDC1C9B135600324565 /* AVFoundation.framework */; };
+		72E76DDF1C9B135A00324565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DDE1C9B135A00324565 /* CoreGraphics.framework */; };
+		72E76DE11C9B135F00324565 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DE01C9B135F00324565 /* CoreMedia.framework */; };
+		72E76DE31C9B136300324565 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DE21C9B136300324565 /* CoreTelephony.framework */; };
+		72E76DE51C9B136700324565 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DE41C9B136700324565 /* EventKit.framework */; };
+		72E76DE71C9B136A00324565 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DE61C9B136A00324565 /* EventKitUI.framework */; };
+		72E76DE91C9B137800324565 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DE81C9B137800324565 /* MessageUI.framework */; };
+		72E76DED1C9B138000324565 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E76DEC1C9B138000324565 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1799ADBA1D022F8C00E3B158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72E76D941C9AEF7800324565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72E76D9B1C9AEF7800324565;
+			remoteInfo = Brave;
+		};
+		1799ADC81D022F9600E3B158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72E76D941C9AEF7800324565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72E76D9B1C9AEF7800324565;
+			remoteInfo = Brave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170C2A581D014A79005B9637 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		170C2A5A1D014A80005B9637 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Socialz/Constants.swift; sourceTree = "<group>"; };
+		170C2A5C1D014A8A005B9637 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Bold.ttf"; path = "Socialz/NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		170C2A5D1D014A8A005B9637 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-BoldItalic.ttf"; path = "Socialz/NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		170C2A5E1D014A8A005B9637 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Italic.ttf"; path = "Socialz/NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		170C2A5F1D014A8A005B9637 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Regular.ttf"; path = "Socialz/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		170C2A641D014A9C005B9637 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Socialz/Post.swift; sourceTree = "<group>"; };
+		170C2A661D014AAC005B9637 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialView.swift; path = Socialz/MaterialView.swift; sourceTree = "<group>"; };
+		170C2A671D014AAC005B9637 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialButton.swift; path = Socialz/MaterialButton.swift; sourceTree = "<group>"; };
+		170C2A681D014AAC005B9637 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialTextField.swift; path = Socialz/MaterialTextField.swift; sourceTree = "<group>"; };
+		170C2A691D014AAC005B9637 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = Socialz/PostCell.swift; sourceTree = "<group>"; };
+		170C2A6E1D014AC1005B9637 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Socialz/ViewController.swift; sourceTree = "<group>"; };
+		170C2A701D014AD4005B9637 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedVC.swift; path = Socialz/FeedVC.swift; sourceTree = "<group>"; };
+		1799ADA51D01FD3600E3B158 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1799ADA61D01FD3600E3B158 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1799ADA71D01FD3600E3B158 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		1799ADAB1D01FE0200E3B158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1799ADB51D022F8C00E3B158 /* BraveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1799ADB71D022F8C00E3B158 /* BraveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraveTests.swift; sourceTree = "<group>"; };
+		1799ADB91D022F8C00E3B158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1799ADC31D022F9600E3B158 /* BraveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1799ADC51D022F9600E3B158 /* BraveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraveUITests.swift; sourceTree = "<group>"; };
+		1799ADC71D022F9600E3B158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1799ADDA1D0636C500E3B158 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		72E76D9C1C9AEF7800324565 /* Brave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E76D9F1C9AEF7800324565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Socialz/AppDelegate.swift; sourceTree = "<group>"; };
+		72E76DA11C9AEF7800324565 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Home.swift; path = Socialz/Home.swift; sourceTree = "<group>"; };
+		72E76DA41C9AEF7800324565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72E76DA61C9AEF7800324565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72E76DAB1C9AEF7800324565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72E76DB11C9AF28F00324565 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configs.swift; path = Socialz/Configs.swift; sourceTree = "<group>"; };
+		72E76DB31C9AF2AB00324565 /* SocialList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocialList.swift; path = Socialz/SocialList.swift; sourceTree = "<group>"; };
+		72E76DB81C9AFE9C00324565 /* Titillium-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Black.otf"; sourceTree = "<group>"; };
+		72E76DB91C9AFE9C00324565 /* Titillium-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Bold.otf"; sourceTree = "<group>"; };
+		72E76DBA1C9AFE9C00324565 /* Titillium-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-BoldItalic.otf"; sourceTree = "<group>"; };
+		72E76DBB1C9AFE9C00324565 /* Titillium-BoldUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-BoldUpright.otf"; sourceTree = "<group>"; };
+		72E76DBC1C9AFE9C00324565 /* Titillium-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Light.otf"; sourceTree = "<group>"; };
+		72E76DBD1C9AFE9C00324565 /* Titillium-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-LightItalic.otf"; sourceTree = "<group>"; };
+		72E76DBE1C9AFE9C00324565 /* Titillium-LightUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-LightUpright.otf"; sourceTree = "<group>"; };
+		72E76DBF1C9AFE9C00324565 /* Titillium-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Regular.otf"; sourceTree = "<group>"; };
+		72E76DC01C9AFE9C00324565 /* Titillium-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-RegularItalic.otf"; sourceTree = "<group>"; };
+		72E76DC11C9AFE9C00324565 /* Titillium-RegularUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-RegularUpright.otf"; sourceTree = "<group>"; };
+		72E76DC21C9AFE9C00324565 /* Titillium-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Semibold.otf"; sourceTree = "<group>"; };
+		72E76DC31C9AFE9C00324565 /* Titillium-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		72E76DC41C9AFE9C00324565 /* Titillium-SemiboldUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-SemiboldUpright.otf"; sourceTree = "<group>"; };
+		72E76DC51C9AFE9C00324565 /* Titillium-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Thin.otf"; sourceTree = "<group>"; };
+		72E76DC61C9AFE9C00324565 /* Titillium-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-ThinItalic.otf"; sourceTree = "<group>"; };
+		72E76DC71C9AFE9C00324565 /* Titillium-ThinUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-ThinUpright.otf"; sourceTree = "<group>"; };
+		72E76DD81C9B12E200324565 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Socialz/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		72E76DDA1C9B135100324565 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		72E76DDC1C9B135600324565 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		72E76DDE1C9B135A00324565 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72E76DE01C9B135F00324565 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		72E76DE21C9B136300324565 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		72E76DE41C9B136700324565 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		72E76DE61C9B136A00324565 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		72E76DE81C9B137800324565 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		72E76DEC1C9B138000324565 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C288401AE81049D727D4E1F9 /* Pods_Brave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6AA3DB6443DD9E785CD001C /* Pods-Brave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brave.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brave/Pods-Brave.release.xcconfig"; sourceTree = "<group>"; };
+		FF9118C0874E695FA472A580 /* Pods-Brave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brave/Pods-Brave.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1799ADB21D022F8C00E3B158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1799ADC01D022F9600E3B158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E76D991C9AEF7800324565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E76DED1C9B138000324565 /* SystemConfiguration.framework in Frameworks */,
+				1799ADA91D01FD3600E3B158 /* FBSDKCoreKit.framework in Frameworks */,
+				72E76DE91C9B137800324565 /* MessageUI.framework in Frameworks */,
+				72E76DE71C9B136A00324565 /* EventKitUI.framework in Frameworks */,
+				72E76DE51C9B136700324565 /* EventKit.framework in Frameworks */,
+				72E76DE31C9B136300324565 /* CoreTelephony.framework in Frameworks */,
+				72E76DE11C9B135F00324565 /* CoreMedia.framework in Frameworks */,
+				1799ADAA1D01FD3600E3B158 /* FBSDKLoginKit.framework in Frameworks */,
+				72E76DDF1C9B135A00324565 /* CoreGraphics.framework in Frameworks */,
+				72E76DDD1C9B135600324565 /* AVFoundation.framework in Frameworks */,
+				1799ADA81D01FD3600E3B158 /* Bolts.framework in Frameworks */,
+				72E76DDB1C9B135100324565 /* AdSupport.framework in Frameworks */,
+				72E76DD91C9B12E200324565 /* GoogleMobileAds.framework in Frameworks */,
+				208B2C8FBC805E63C0BC2D80 /* Pods_Brave.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170C2A521D0148B6005B9637 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				170C2A5A1D014A80005B9637 /* Constants.swift */,
+			);
+			name = Util;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		170C2A531D0149B2005B9637 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72E76DB71C9AFE9C00324565 /* Titillium Font */,
+				170C2A5C1D014A8A005B9637 /* NotoSans-Bold.ttf */,
+				170C2A5D1D014A8A005B9637 /* NotoSans-BoldItalic.ttf */,
+				170C2A5E1D014A8A005B9637 /* NotoSans-Italic.ttf */,
+				170C2A5F1D014A8A005B9637 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		170C2A541D0149BE005B9637 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72E76DB11C9AF28F00324565 /* Configs.swift */,
+				170C2A641D014A9C005B9637 /* Post.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		170C2A551D0149C9005B9637 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				170C2A661D014AAC005B9637 /* MaterialView.swift */,
+				170C2A671D014AAC005B9637 /* MaterialButton.swift */,
+				170C2A681D014AAC005B9637 /* MaterialTextField.swift */,
+				170C2A691D014AAC005B9637 /* PostCell.swift */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		170C2A561D0149E2005B9637 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				170C2A701D014AD4005B9637 /* FeedVC.swift */,
+				170C2A6E1D014AC1005B9637 /* ViewController.swift */,
+				72E76DB31C9AF2AB00324565 /* SocialList.swift */,
+				72E76DA11C9AEF7800324565 /* Home.swift */,
+				72E76D9F1C9AEF7800324565 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		170C2A571D014A66005B9637 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				170C2A581D014A79005B9637 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		1799ADB61D022F8C00E3B158 /* BraveTests */ = {
+			isa = PBXGroup;
+			children = (
+				1799ADB71D022F8C00E3B158 /* BraveTests.swift */,
+				1799ADB91D022F8C00E3B158 /* Info.plist */,
+			);
+			path = BraveTests;
+			sourceTree = "<group>";
+		};
+		1799ADC41D022F9600E3B158 /* BraveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1799ADC51D022F9600E3B158 /* BraveUITests.swift */,
+				1799ADC71D022F9600E3B158 /* Info.plist */,
+			);
+			path = BraveUITests;
+			sourceTree = "<group>";
+		};
+		4F607B84AB40765301FB4FD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF9118C0874E695FA472A580 /* Pods-Brave.debug.xcconfig */,
+				E6AA3DB6443DD9E785CD001C /* Pods-Brave.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72E76D931C9AEF7800324565 = {
+			isa = PBXGroup;
+			children = (
+				1799ADDA1D0636C500E3B158 /* Default-568h@2x.png */,
+				72E76D9E1C9AEF7800324565 /* Brave */,
+				1799ADB61D022F8C00E3B158 /* BraveTests */,
+				1799ADC41D022F9600E3B158 /* BraveUITests */,
+				72E76D9D1C9AEF7800324565 /* Products */,
+				4F607B84AB40765301FB4FD4 /* Pods */,
+				9A6ADA9EFF928C89A540FCC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72E76D9D1C9AEF7800324565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72E76D9C1C9AEF7800324565 /* Brave.app */,
+				1799ADB51D022F8C00E3B158 /* BraveTests.xctest */,
+				1799ADC31D022F9600E3B158 /* BraveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72E76D9E1C9AEF7800324565 /* Brave */ = {
+			isa = PBXGroup;
+			children = (
+				170C2A571D014A66005B9637 /* Services */,
+				170C2A521D0148B6005B9637 /* Util */,
+				170C2A531D0149B2005B9637 /* Resources */,
+				170C2A541D0149BE005B9637 /* Model */,
+				170C2A551D0149C9005B9637 /* View */,
+				72E76DA31C9AEF7800324565 /* Main.storyboard */,
+				170C2A561D0149E2005B9637 /* Controller */,
+				72E76DA61C9AEF7800324565 /* Assets.xcassets */,
+				1799ADAB1D01FE0200E3B158 /* GoogleService-Info.plist */,
+				72E76DEE1C9B138900324565 /* Frameworks */,
+				72E76DAB1C9AEF7800324565 /* Info.plist */,
+			);
+			name = Brave;
+			path = Socialz;
+			sourceTree = "<group>";
+		};
+		72E76DB71C9AFE9C00324565 /* Titillium Font */ = {
+			isa = PBXGroup;
+			children = (
+				72E76DB81C9AFE9C00324565 /* Titillium-Black.otf */,
+				72E76DB91C9AFE9C00324565 /* Titillium-Bold.otf */,
+				72E76DBA1C9AFE9C00324565 /* Titillium-BoldItalic.otf */,
+				72E76DBB1C9AFE9C00324565 /* Titillium-BoldUpright.otf */,
+				72E76DBC1C9AFE9C00324565 /* Titillium-Light.otf */,
+				72E76DBD1C9AFE9C00324565 /* Titillium-LightItalic.otf */,
+				72E76DBE1C9AFE9C00324565 /* Titillium-LightUpright.otf */,
+				72E76DBF1C9AFE9C00324565 /* Titillium-Regular.otf */,
+				72E76DC01C9AFE9C00324565 /* Titillium-RegularItalic.otf */,
+				72E76DC11C9AFE9C00324565 /* Titillium-RegularUpright.otf */,
+				72E76DC21C9AFE9C00324565 /* Titillium-Semibold.otf */,
+				72E76DC31C9AFE9C00324565 /* Titillium-SemiboldItalic.otf */,
+				72E76DC41C9AFE9C00324565 /* Titillium-SemiboldUpright.otf */,
+				72E76DC51C9AFE9C00324565 /* Titillium-Thin.otf */,
+				72E76DC61C9AFE9C00324565 /* Titillium-ThinItalic.otf */,
+				72E76DC71C9AFE9C00324565 /* Titillium-ThinUpright.otf */,
+			);
+			name = "Titillium Font";
+			path = "Socialz/Titillium Font";
+			sourceTree = "<group>";
+		};
+		72E76DEE1C9B138900324565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1799ADA51D01FD3600E3B158 /* Bolts.framework */,
+				1799ADA61D01FD3600E3B158 /* FBSDKCoreKit.framework */,
+				1799ADA71D01FD3600E3B158 /* FBSDKLoginKit.framework */,
+				72E76DEC1C9B138000324565 /* SystemConfiguration.framework */,
+				72E76DE81C9B137800324565 /* MessageUI.framework */,
+				72E76DE61C9B136A00324565 /* EventKitUI.framework */,
+				72E76DE41C9B136700324565 /* EventKit.framework */,
+				72E76DE21C9B136300324565 /* CoreTelephony.framework */,
+				72E76DE01C9B135F00324565 /* CoreMedia.framework */,
+				72E76DDE1C9B135A00324565 /* CoreGraphics.framework */,
+				72E76DDC1C9B135600324565 /* AVFoundation.framework */,
+				72E76DDA1C9B135100324565 /* AdSupport.framework */,
+				72E76DD81C9B12E200324565 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9A6ADA9EFF928C89A540FCC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C288401AE81049D727D4E1F9 /* Pods_Brave.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1799ADB41D022F8C00E3B158 /* BraveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1799ADBE1D022F8C00E3B158 /* Build configuration list for PBXNativeTarget "BraveTests" */;
+			buildPhases = (
+				1799ADB11D022F8C00E3B158 /* Sources */,
+				1799ADB21D022F8C00E3B158 /* Frameworks */,
+				1799ADB31D022F8C00E3B158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1799ADBB1D022F8C00E3B158 /* PBXTargetDependency */,
+			);
+			name = BraveTests;
+			productName = BraveTests;
+			productReference = 1799ADB51D022F8C00E3B158 /* BraveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1799ADC21D022F9600E3B158 /* BraveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1799ADCA1D022F9600E3B158 /* Build configuration list for PBXNativeTarget "BraveUITests" */;
+			buildPhases = (
+				1799ADBF1D022F9600E3B158 /* Sources */,
+				1799ADC01D022F9600E3B158 /* Frameworks */,
+				1799ADC11D022F9600E3B158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1799ADC91D022F9600E3B158 /* PBXTargetDependency */,
+			);
+			name = BraveUITests;
+			productName = BraveUITests;
+			productReference = 1799ADC31D022F9600E3B158 /* BraveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		72E76D9B1C9AEF7800324565 /* Brave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72E76DAE1C9AEF7800324565 /* Build configuration list for PBXNativeTarget "Brave" */;
+			buildPhases = (
+				641A149FF2CA9CC652A4D484 /* 📦 Check Pods Manifest.lock */,
+				72E76D981C9AEF7800324565 /* Sources */,
+				72E76D991C9AEF7800324565 /* Frameworks */,
+				72E76D9A1C9AEF7800324565 /* Resources */,
+				EEABBE072D9797558DD0F9AE /* 📦 Embed Pods Frameworks */,
+				A887E4D1F1D81D3CF10509E9 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brave;
+			productName = Socialz;
+			productReference = 72E76D9C1C9AEF7800324565 /* Brave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72E76D941C9AEF7800324565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Debbasplus;
+				TargetAttributes = {
+					1799ADB41D022F8C00E3B158 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 72E76D9B1C9AEF7800324565;
+					};
+					1799ADC21D022F9600E3B158 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 72E76D9B1C9AEF7800324565;
+					};
+					72E76D9B1C9AEF7800324565 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2L9EQ53XZJ;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 72E76D971C9AEF7800324565 /* Build configuration list for PBXProject "Brave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72E76D931C9AEF7800324565;
+			productRefGroup = 72E76D9D1C9AEF7800324565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72E76D9B1C9AEF7800324565 /* Brave */,
+				1799ADB41D022F8C00E3B158 /* BraveTests */,
+				1799ADC21D022F9600E3B158 /* BraveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1799ADB31D022F8C00E3B158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1799ADC11D022F9600E3B158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E76D9A1C9AEF7800324565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E76DD61C9AFE9C00324565 /* Titillium-ThinItalic.otf in Resources */,
+				72E76DCD1C9AFE9C00324565 /* Titillium-LightItalic.otf in Resources */,
+				72E76DCE1C9AFE9C00324565 /* Titillium-LightUpright.otf in Resources */,
+				72E76DD31C9AFE9C00324565 /* Titillium-SemiboldItalic.otf in Resources */,
+				170C2A601D014A8A005B9637 /* NotoSans-Bold.ttf in Resources */,
+				1799ADDB1D0636C500E3B158 /* Default-568h@2x.png in Resources */,
+				72E76DD11C9AFE9C00324565 /* Titillium-RegularUpright.otf in Resources */,
+				72E76DD41C9AFE9C00324565 /* Titillium-SemiboldUpright.otf in Resources */,
+				72E76DD71C9AFE9C00324565 /* Titillium-ThinUpright.otf in Resources */,
+				72E76DCB1C9AFE9C00324565 /* Titillium-BoldUpright.otf in Resources */,
+				72E76DD51C9AFE9C00324565 /* Titillium-Thin.otf in Resources */,
+				72E76DC91C9AFE9C00324565 /* Titillium-Bold.otf in Resources */,
+				72E76DCF1C9AFE9C00324565 /* Titillium-Regular.otf in Resources */,
+				170C2A611D014A8A005B9637 /* NotoSans-BoldItalic.ttf in Resources */,
+				72E76DCA1C9AFE9C00324565 /* Titillium-BoldItalic.otf in Resources */,
+				170C2A631D014A8A005B9637 /* NotoSans-Regular.ttf in Resources */,
+				72E76DA71C9AEF7800324565 /* Assets.xcassets in Resources */,
+				72E76DA51C9AEF7800324565 /* Main.storyboard in Resources */,
+				72E76DD21C9AFE9C00324565 /* Titillium-Semibold.otf in Resources */,
+				72E76DD01C9AFE9C00324565 /* Titillium-RegularItalic.otf in Resources */,
+				1799ADAC1D01FE0200E3B158 /* GoogleService-Info.plist in Resources */,
+				170C2A621D014A8A005B9637 /* NotoSans-Italic.ttf in Resources */,
+				72E76DC81C9AFE9C00324565 /* Titillium-Black.otf in Resources */,
+				72E76DCC1C9AFE9C00324565 /* Titillium-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		641A149FF2CA9CC652A4D484 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A887E4D1F1D81D3CF10509E9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brave/Pods-Brave-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEABBE072D9797558DD0F9AE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brave/Pods-Brave-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1799ADB11D022F8C00E3B158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1799ADB81D022F8C00E3B158 /* BraveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1799ADBF1D022F9600E3B158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1799ADC61D022F9600E3B158 /* BraveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E76D981C9AEF7800324565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E76DA21C9AEF7800324565 /* Home.swift in Sources */,
+				72E76DA01C9AEF7800324565 /* AppDelegate.swift in Sources */,
+				170C2A6C1D014AAC005B9637 /* MaterialTextField.swift in Sources */,
+				72E76DB41C9AF2AB00324565 /* SocialList.swift in Sources */,
+				72E76DB21C9AF28F00324565 /* Configs.swift in Sources */,
+				170C2A591D014A79005B9637 /* DataService.swift in Sources */,
+				170C2A711D014AD4005B9637 /* FeedVC.swift in Sources */,
+				170C2A6F1D014AC1005B9637 /* ViewController.swift in Sources */,
+				170C2A6B1D014AAC005B9637 /* MaterialButton.swift in Sources */,
+				170C2A651D014A9C005B9637 /* Post.swift in Sources */,
+				170C2A6D1D014AAC005B9637 /* PostCell.swift in Sources */,
+				170C2A5B1D014A80005B9637 /* Constants.swift in Sources */,
+				170C2A6A1D014AAC005B9637 /* MaterialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1799ADBB1D022F8C00E3B158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72E76D9B1C9AEF7800324565 /* Brave */;
+			targetProxy = 1799ADBA1D022F8C00E3B158 /* PBXContainerItemProxy */;
+		};
+		1799ADC91D022F9600E3B158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72E76D9B1C9AEF7800324565 /* Brave */;
+			targetProxy = 1799ADC81D022F9600E3B158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72E76DA31C9AEF7800324565 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72E76DA41C9AEF7800324565 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1799ADBC1D022F8C00E3B158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = BraveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debbasplus.BraveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brave.app/Brave";
+			};
+			name = Debug;
+		};
+		1799ADBD1D022F8C00E3B158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = BraveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debbasplus.BraveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brave.app/Brave";
+			};
+			name = Release;
+		};
+		1799ADCB1D022F9600E3B158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = BraveUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debbasplus.BraveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Brave;
+			};
+			name = Debug;
+		};
+		1799ADCC1D022F9600E3B158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = BraveUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debbasplus.BraveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Brave;
+			};
+			name = Release;
+		};
+		72E76DAC1C9AEF7800324565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72E76DAD1C9AEF7800324565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72E76DAF1C9AEF7800324565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9118C0874E695FA472A580 /* Pods-Brave.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Socialz",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Socialz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.Brave;
+				PRODUCT_NAME = Brave;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		72E76DB01C9AEF7800324565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AA3DB6443DD9E785CD001C /* Pods-Brave.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Socialz",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Socialz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.Brave;
+				PRODUCT_NAME = Brave;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1799ADBE1D022F8C00E3B158 /* Build configuration list for PBXNativeTarget "BraveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1799ADBC1D022F8C00E3B158 /* Debug */,
+				1799ADBD1D022F8C00E3B158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1799ADCA1D022F9600E3B158 /* Build configuration list for PBXNativeTarget "BraveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1799ADCB1D022F9600E3B158 /* Debug */,
+				1799ADCC1D022F9600E3B158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72E76D971C9AEF7800324565 /* Build configuration list for PBXProject "Brave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E76DAC1C9AEF7800324565 /* Debug */,
+				72E76DAD1C9AEF7800324565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72E76DAE1C9AEF7800324565 /* Build configuration list for PBXNativeTarget "Brave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E76DAF1C9AEF7800324565 /* Debug */,
+				72E76DB01C9AEF7800324565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72E76D941C9AEF7800324565 /* Project object */;
+}
