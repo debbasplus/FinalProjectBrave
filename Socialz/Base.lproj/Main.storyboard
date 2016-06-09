@@ -27,11 +27,11 @@
             <objects>
                 <viewController storyboardIdentifier="Home" id="BYZ-38-t0r" customClass="Home" customModule="Brave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="m9N-br-gzY">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="385"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="505"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
@@ -40,14 +40,14 @@
                                 </connections>
                             </webView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You haven't selected any social link. Tap the menu button on the top to do so." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Rs-f4-hzr">
-                                <rect key="frame" x="20" y="213" width="280" height="54"/>
+                                <rect key="frame" x="37.5" y="273" width="525" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="XPN-TJ-Nua">
-                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <items>
@@ -84,7 +84,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Brave" id="9wV-c5-aFD"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <connections>
                         <outlet property="noSocialLabel" destination="9Rs-f4-hzr" id="ZUY-mP-kU4"/>
                         <outlet property="toolbar" destination="XPN-TJ-Nua" id="tfo-j0-AGe"/>
@@ -93,18 +94,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="377" y="864"/>
+            <point key="canvasLocation" x="992" y="-78"/>
         </scene>
         <!--Select a Social-->
         <scene sceneID="vJP-aj-TQN">
             <objects>
                 <viewController storyboardIdentifier="SocialList" id="4TT-xk-tmf" customClass="SocialList" customModule="Brave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="57w-vL-uOn">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="e7r-p7-4h1">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="h7M-f4-rJK">
@@ -149,21 +150,23 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Select a Social" id="MWt-9s-zQv"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <connections>
                         <outlet property="socialCollView" destination="e7r-p7-4h1" id="Ivq-ZI-qGc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sWV-Mi-EoT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23" y="864"/>
+            <point key="canvasLocation" x="354" y="-78"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="19q-QS-1kc">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ccW-aW-Mal" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5vV-8B-Mzq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -181,14 +184,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nLC-5z-QFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23" y="322"/>
+            <point key="canvasLocation" x="-299" y="-78"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Nx3-mx-AS5">
             <objects>
                 <viewController id="aNk-9x-rNe" customClass="ViewController" customModule="Brave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jjO-VN-tci">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="ts1-ue-Lkp">
@@ -283,6 +286,8 @@
                         </subviews>
                         <color key="backgroundColor" red="0.95363654929999997" green="0.95363654929999997" blue="0.95363654929999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <connections>
                         <outlet property="emailField" destination="Pxd-JV-11K" id="DqT-by-MJU"/>
                         <outlet property="passwordField" destination="nmE-Jk-5wM" id="ET5-Mh-dZx"/>
@@ -297,7 +302,7 @@
             <objects>
                 <viewController id="ZlZ-X9-deL" customClass="FeedVC" customModule="Brave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tMy-Yi-7QZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="bbO-gq-3Rg" customClass="MaterialView" customModule="Brave" customModuleProvider="target">
@@ -444,6 +449,8 @@
                         <color key="backgroundColor" white="0.87854646380000001" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ikx-2Q-BcO"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <connections>
                         <outlet property="postField" destination="zIh-AK-Ebu" id="YFu-qF-WJe"/>
                         <outlet property="postImg" destination="a4C-wC-APp" id="df0-59-na0"/>
@@ -457,13 +464,15 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1188" y="220"/>
+            <point key="canvasLocation" x="992" y="-872"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lwv-om-KrX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="80T-gd-45O" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gvW-sj-uoZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -473,7 +482,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Mb-up-D6Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-165" y="-896"/>
+            <point key="canvasLocation" x="-299" y="-872"/>
         </scene>
     </scenes>
     <resources>
