@@ -7,5 +7,6 @@ target 'Brave' do
 
   # Pods for Brave
 pod 'Firebase', '>= 2.3.3'
+pod 'Alamofire', '~> 3.4'
 
 end
