@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170C2A591D014A79005B9637 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A581D014A79005B9637 /* DataService.swift */; };
+		1708FE9F1D3DA0CD00E348F2 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1708FE9E1D3DA0CD00E348F2 /* TabBarViewController.swift */; };
+		170C2A591D014A79005B9637 /* DataaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A581D014A79005B9637 /* DataaService.swift */; };
 		170C2A5B1D014A80005B9637 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A5A1D014A80005B9637 /* Constants.swift */; };
 		170C2A601D014A8A005B9637 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 170C2A5C1D014A8A005B9637 /* NotoSans-Bold.ttf */; };
 		170C2A611D014A8A005B9637 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 170C2A5D1D014A8A005B9637 /* NotoSans-BoldItalic.ttf */; };
@@ -18,19 +19,52 @@
 		170C2A6B1D014AAC005B9637 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A671D014AAC005B9637 /* MaterialButton.swift */; };
 		170C2A6C1D014AAC005B9637 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A681D014AAC005B9637 /* MaterialTextField.swift */; };
 		170C2A6D1D014AAC005B9637 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A691D014AAC005B9637 /* PostCell.swift */; };
-		170C2A6F1D014AC1005B9637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A6E1D014AC1005B9637 /* ViewController.swift */; };
+		170C2A6F1D014AC1005B9637 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A6E1D014AC1005B9637 /* LoginViewController.swift */; };
 		170C2A711D014AD4005B9637 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C2A701D014AD4005B9637 /* FeedVC.swift */; };
+		171005E31D3CAF7900F8BFBE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171005E21D3CAF7900F8BFBE /* SignUpViewController.swift */; };
+		171005E51D3D529100F8BFBE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171005E41D3D529100F8BFBE /* DataService.swift */; };
+		171422A11D3C02610094F7CF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171422A01D3C02610094F7CF /* FBSDKCoreKit.framework */; };
+		171422A31D3C0D300094F7CF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171422A21D3C0D300094F7CF /* FBSDKLoginKit.framework */; };
+		171422A51D3C0D390094F7CF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171422A41D3C0D390094F7CF /* FBSDKShareKit.framework */; };
+		173B6CEB1D3DB66D007DF4D9 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 173B6CE81D3DB66D007DF4D9 /* ProgressHUD.bundle */; };
+		173B6CEC1D3DB66D007DF4D9 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 173B6CEA1D3DB66D007DF4D9 /* ProgressHUD.m */; };
+		173B6CEE1D3DE233007DF4D9 /* datamodel.js in Resources */ = {isa = PBXBuildFile; fileRef = 173B6CED1D3DE233007DF4D9 /* datamodel.js */; };
+		173B6CF11D3DF46D007DF4D9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6CF01D3DF46D007DF4D9 /* Helper.swift */; };
+		173B6CFB1D3E1984007DF4D9 /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6CFA1D3E1984007DF4D9 /* SegueViewController.swift */; };
+		173B6CFD1D3E19BB007DF4D9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6CFC1D3E19BB007DF4D9 /* BaseViewController.swift */; };
+		173B6CFF1D3E1A18007DF4D9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6CFE1D3E1A18007DF4D9 /* UIColor.swift */; };
+		173B6D011D3E1AEA007DF4D9 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D001D3E1AEA007DF4D9 /* UIFont.swift */; };
+		173B6D031D3E1B8F007DF4D9 /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D021D3E1B8F007DF4D9 /* FeedsViewController.swift */; };
+		173B6D051D3E1BB5007DF4D9 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D041D3E1BB5007DF4D9 /* ContactsViewController.swift */; };
+		173B6D071D3E1BE6007DF4D9 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D061D3E1BE6007DF4D9 /* DiscoverViewController.swift */; };
+		173B6D091D3E1C0C007DF4D9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D081D3E1C0C007DF4D9 /* ProfileViewController.swift */; };
+		173B6D0D1D3E2075007DF4D9 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D0C1D3E2075007DF4D9 /* UIScrollView.swift */; };
+		173B6D0F1D3E235F007DF4D9 /* DiscoverCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D0E1D3E235F007DF4D9 /* DiscoverCollectionView.swift */; };
+		173B6D111D3E4722007DF4D9 /* ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D101D3E4722007DF4D9 /* ads.swift */; };
+		173B6D131D3E4D90007DF4D9 /* BraveNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D121D3E4D90007DF4D9 /* BraveNavigationController.swift */; };
+		173B6D181D3EC3E4007DF4D9 /* configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B6D171D3EC3E3007DF4D9 /* configs.swift */; };
+		1741A4EB1D409F1B00A67653 /* ShareProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741A4EA1D409F1B00A67653 /* ShareProfileView.swift */; };
+		1741A4ED1D409FFB00A67653 /* CancelableTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741A4EC1D409FFB00A67653 /* CancelableTask.swift */; };
+		1741A4EF1D40A0ED00A67653 /* BraveAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741A4EE1D40A0ED00A67653 /* BraveAlert.swift */; };
+		1741A4F11D40A3CA00A67653 /* UIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741A4F01D40A3CA00A67653 /* UIModels.swift */; };
+		1741A4F31D40AC0200A67653 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741A4F21D40AC0200A67653 /* Models.swift */; };
+		1741A4F81D40B7CA00A67653 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1741A4F71D40B7CA00A67653 /* CoreSpotlight.framework */; };
+		1741A4F91D40C9A100A67653 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1741A4FB1D40C9A100A67653 /* Home.storyboard */; };
 		1799ADA81D01FD3600E3B158 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1799ADA51D01FD3600E3B158 /* Bolts.framework */; };
-		1799ADA91D01FD3600E3B158 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1799ADA61D01FD3600E3B158 /* FBSDKCoreKit.framework */; };
-		1799ADAA1D01FD3600E3B158 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1799ADA71D01FD3600E3B158 /* FBSDKLoginKit.framework */; };
-		1799ADAC1D01FE0200E3B158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1799ADAB1D01FE0200E3B158 /* GoogleService-Info.plist */; };
 		1799ADB81D022F8C00E3B158 /* BraveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799ADB71D022F8C00E3B158 /* BraveTests.swift */; };
 		1799ADC61D022F9600E3B158 /* BraveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799ADC51D022F9600E3B158 /* BraveUITests.swift */; };
-		1799ADDB1D0636C500E3B158 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1799ADDA1D0636C500E3B158 /* Default-568h@2x.png */; };
+		179CDCDC1D2EE76700255002 /* RealimConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CDCDB1D2EE76700255002 /* RealimConfigs.swift */; };
+		179CDCDF1D2EE96900255002 /* BraveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CDCDE1D2EE96900255002 /* BraveConfig.swift */; };
+		179F1F6C1D39D6B400F42ACA /* ShowStepDescoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F1F6B1D39D6B400F42ACA /* ShowStepDescoverViewController.swift */; };
+		179F1F701D39DB8A00F42ACA /* ShowStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F1F6F1D39DB8A00F42ACA /* ShowStepViewController.swift */; };
+		179F1F741D39DC3B00F42ACA /* ShowStepMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F1F731D39DC3B00F42ACA /* ShowStepMatchViewController.swift */; };
+		179F1F761D39DC7A00F42ACA /* ShowStepMeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F1F751D39DC7A00F42ACA /* ShowStepMeetViewController.swift */; };
+		17CB9EC71D3F7B7C001086AC /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB9EC61D3F7B7C001086AC /* EditProfileViewController.swift */; };
+		17F8845A1D3C501D00FA6C67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17F884591D3C501D00FA6C67 /* GoogleService-Info.plist */; };
+		17F8845B1D3C542400FA6C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F8845D1D3C542400FA6C67 /* Main.storyboard */; };
 		208B2C8FBC805E63C0BC2D80 /* Pods_Brave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C288401AE81049D727D4E1F9 /* Pods_Brave.framework */; };
 		72E76DA01C9AEF7800324565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E76D9F1C9AEF7800324565 /* AppDelegate.swift */; };
 		72E76DA21C9AEF7800324565 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E76DA11C9AEF7800324565 /* Home.swift */; };
-		72E76DA51C9AEF7800324565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DA31C9AEF7800324565 /* Main.storyboard */; };
 		72E76DA71C9AEF7800324565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E76DA61C9AEF7800324565 /* Assets.xcassets */; };
 		72E76DB21C9AF28F00324565 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E76DB11C9AF28F00324565 /* Configs.swift */; };
 		72E76DB41C9AF2AB00324565 /* SocialList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E76DB31C9AF2AB00324565 /* SocialList.swift */; };
@@ -80,7 +114,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		170C2A581D014A79005B9637 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		1708FE9E1D3DA0CD00E348F2 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		170C2A581D014A79005B9637 /* DataaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataaService.swift; sourceTree = "<group>"; };
 		170C2A5A1D014A80005B9637 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Socialz/Constants.swift; sourceTree = "<group>"; };
 		170C2A5C1D014A8A005B9637 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Bold.ttf"; path = "Socialz/NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		170C2A5D1D014A8A005B9637 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-BoldItalic.ttf"; path = "Socialz/NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -91,23 +126,58 @@
 		170C2A671D014AAC005B9637 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialButton.swift; path = Socialz/MaterialButton.swift; sourceTree = "<group>"; };
 		170C2A681D014AAC005B9637 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialTextField.swift; path = Socialz/MaterialTextField.swift; sourceTree = "<group>"; };
 		170C2A691D014AAC005B9637 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = Socialz/PostCell.swift; sourceTree = "<group>"; };
-		170C2A6E1D014AC1005B9637 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Socialz/ViewController.swift; sourceTree = "<group>"; };
+		170C2A6E1D014AC1005B9637 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Socialz/LoginViewController.swift; sourceTree = "<group>"; };
 		170C2A701D014AD4005B9637 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedVC.swift; path = Socialz/FeedVC.swift; sourceTree = "<group>"; };
+		171005E21D3CAF7900F8BFBE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		171005E41D3D529100F8BFBE /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		171422A01D3C02610094F7CF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		171422A21D3C0D300094F7CF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		171422A41D3C0D390094F7CF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		173B6CE71D3DB66C007DF4D9 /* Brave-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brave-Bridging-Header.h"; sourceTree = "<group>"; };
+		173B6CE81D3DB66D007DF4D9 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		173B6CE91D3DB66D007DF4D9 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		173B6CEA1D3DB66D007DF4D9 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		173B6CED1D3DE233007DF4D9 /* datamodel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = datamodel.js; sourceTree = "<group>"; };
+		173B6CF01D3DF46D007DF4D9 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		173B6CFA1D3E1984007DF4D9 /* SegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueViewController.swift; sourceTree = "<group>"; };
+		173B6CFC1D3E19BB007DF4D9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		173B6CFE1D3E1A18007DF4D9 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		173B6D001D3E1AEA007DF4D9 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		173B6D021D3E1B8F007DF4D9 /* FeedsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
+		173B6D041D3E1BB5007DF4D9 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		173B6D061D3E1BE6007DF4D9 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		173B6D081D3E1C0C007DF4D9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		173B6D0C1D3E2075007DF4D9 /* UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		173B6D0E1D3E235F007DF4D9 /* DiscoverCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionView.swift; sourceTree = "<group>"; };
+		173B6D101D3E4722007DF4D9 /* ads.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ads.swift; sourceTree = "<group>"; };
+		173B6D121D3E4D90007DF4D9 /* BraveNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BraveNavigationController.swift; path = Socialz/BraveNavigationController.swift; sourceTree = "<group>"; };
+		173B6D171D3EC3E3007DF4D9 /* configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configs.swift; sourceTree = "<group>"; };
+		1741A4EA1D409F1B00A67653 /* ShareProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareProfileView.swift; sourceTree = "<group>"; };
+		1741A4EC1D409FFB00A67653 /* CancelableTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelableTask.swift; sourceTree = "<group>"; };
+		1741A4EE1D40A0ED00A67653 /* BraveAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BraveAlert.swift; sourceTree = "<group>"; };
+		1741A4F01D40A3CA00A67653 /* UIModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIModels.swift; sourceTree = "<group>"; };
+		1741A4F21D40AC0200A67653 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1741A4F71D40B7CA00A67653 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		1741A4FA1D40C9A100A67653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		1799ADA51D01FD3600E3B158 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		1799ADA61D01FD3600E3B158 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		1799ADA71D01FD3600E3B158 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		1799ADAB1D01FE0200E3B158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1799ADB51D022F8C00E3B158 /* BraveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1799ADB71D022F8C00E3B158 /* BraveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraveTests.swift; sourceTree = "<group>"; };
 		1799ADB91D022F8C00E3B158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1799ADC31D022F9600E3B158 /* BraveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1799ADC51D022F9600E3B158 /* BraveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraveUITests.swift; sourceTree = "<group>"; };
 		1799ADC71D022F9600E3B158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1799ADDA1D0636C500E3B158 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		179CDCDB1D2EE76700255002 /* RealimConfigs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealimConfigs.swift; sourceTree = "<group>"; };
+		179CDCDE1D2EE96900255002 /* BraveConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BraveConfig.swift; sourceTree = "<group>"; };
+		179F1F6B1D39D6B400F42ACA /* ShowStepDescoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepDescoverViewController.swift; sourceTree = "<group>"; };
+		179F1F6F1D39DB8A00F42ACA /* ShowStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepViewController.swift; sourceTree = "<group>"; };
+		179F1F731D39DC3B00F42ACA /* ShowStepMatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepMatchViewController.swift; sourceTree = "<group>"; };
+		179F1F751D39DC7A00F42ACA /* ShowStepMeetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepMeetViewController.swift; sourceTree = "<group>"; };
+		17CB9EC61D3F7B7C001086AC /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		17F884591D3C501D00FA6C67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17F8845C1D3C542400FA6C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72E76D9C1C9AEF7800324565 /* Brave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E76D9F1C9AEF7800324565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Socialz/AppDelegate.swift; sourceTree = "<group>"; };
 		72E76DA11C9AEF7800324565 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Home.swift; path = Socialz/Home.swift; sourceTree = "<group>"; };
-		72E76DA41C9AEF7800324565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72E76DA61C9AEF7800324565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72E76DAB1C9AEF7800324565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72E76DB11C9AF28F00324565 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configs.swift; path = Socialz/Configs.swift; sourceTree = "<group>"; };
@@ -162,16 +232,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1741A4F81D40B7CA00A67653 /* CoreSpotlight.framework in Frameworks */,
 				72E76DED1C9B138000324565 /* SystemConfiguration.framework in Frameworks */,
-				1799ADA91D01FD3600E3B158 /* FBSDKCoreKit.framework in Frameworks */,
 				72E76DE91C9B137800324565 /* MessageUI.framework in Frameworks */,
+				171422A51D3C0D390094F7CF /* FBSDKShareKit.framework in Frameworks */,
 				72E76DE71C9B136A00324565 /* EventKitUI.framework in Frameworks */,
 				72E76DE51C9B136700324565 /* EventKit.framework in Frameworks */,
+				171422A31D3C0D300094F7CF /* FBSDKLoginKit.framework in Frameworks */,
 				72E76DE31C9B136300324565 /* CoreTelephony.framework in Frameworks */,
 				72E76DE11C9B135F00324565 /* CoreMedia.framework in Frameworks */,
-				1799ADAA1D01FD3600E3B158 /* FBSDKLoginKit.framework in Frameworks */,
 				72E76DDF1C9B135A00324565 /* CoreGraphics.framework in Frameworks */,
 				72E76DDD1C9B135600324565 /* AVFoundation.framework in Frameworks */,
+				171422A11D3C02610094F7CF /* FBSDKCoreKit.framework in Frameworks */,
 				1799ADA81D01FD3600E3B158 /* Bolts.framework in Frameworks */,
 				72E76DDB1C9B135100324565 /* AdSupport.framework in Frameworks */,
 				72E76DD91C9B12E200324565 /* GoogleMobileAds.framework in Frameworks */,
@@ -182,6 +254,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1708FE9D1D3DA08300E348F2 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1708FE9E1D3DA0CD00E348F2 /* TabBarViewController.swift */,
+				173B6D171D3EC3E3007DF4D9 /* configs.swift */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
 		170C2A521D0148B6005B9637 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +290,7 @@
 			children = (
 				72E76DB11C9AF28F00324565 /* Configs.swift */,
 				170C2A641D014A9C005B9637 /* Post.swift */,
+				1741A4F01D40A3CA00A67653 /* UIModels.swift */,
 			);
 			name = Model;
 			path = ..;
@@ -221,30 +303,169 @@
 				170C2A671D014AAC005B9637 /* MaterialButton.swift */,
 				170C2A681D014AAC005B9637 /* MaterialTextField.swift */,
 				170C2A691D014AAC005B9637 /* PostCell.swift */,
+				1741A4EA1D409F1B00A67653 /* ShareProfileView.swift */,
 			);
 			name = View;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		170C2A561D0149E2005B9637 /* Controller */ = {
+		170C2A561D0149E2005B9637 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				170C2A701D014AD4005B9637 /* FeedVC.swift */,
-				170C2A6E1D014AC1005B9637 /* ViewController.swift */,
-				72E76DB31C9AF2AB00324565 /* SocialList.swift */,
-				72E76DA11C9AEF7800324565 /* Home.swift */,
-				72E76D9F1C9AEF7800324565 /* AppDelegate.swift */,
+				173B6CF91D3E194E007DF4D9 /* Base */,
+				173B6D141D3E4DC5007DF4D9 /* Nav */,
+				1708FE9D1D3DA08300E348F2 /* TabBar */,
+				173B6CF81D3E18D3007DF4D9 /* Contacts */,
+				173B6CF71D3E1867007DF4D9 /* Profile */,
+				173B6CF61D3E185C007DF4D9 /* Discover */,
+				173B6CF51D3E1854007DF4D9 /* Feeds */,
+				173B6CEF1D3DEBA9007DF4D9 /* to use laterfeedvc/socialList/home */,
+				179F1F641D39D5E500F42ACA /* Show */,
 			);
-			name = Controller;
+			name = ViewController;
 			path = ..;
 			sourceTree = "<group>";
 		};
 		170C2A571D014A66005B9637 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				170C2A581D014A79005B9637 /* DataService.swift */,
+				170C2A581D014A79005B9637 /* DataaService.swift */,
+				171005E41D3D529100F8BFBE /* DataService.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		172185CD1D38630D005B04A6 /* Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Shortcuts;
+			sourceTree = "<group>";
+		};
+		172185CE1D38632B005B04A6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		172185CF1D38633D005B04A6 /* Healpers */ = {
+			isa = PBXGroup;
+			children = (
+				173B6CF01D3DF46D007DF4D9 /* Helper.swift */,
+				1741A4EC1D409FFB00A67653 /* CancelableTask.swift */,
+				1741A4EE1D40A0ED00A67653 /* BraveAlert.swift */,
+			);
+			name = Healpers;
+			sourceTree = "<group>";
+		};
+		172185D01D386350005B04A6 /* Caches */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Caches;
+			sourceTree = "<group>";
+		};
+		172185D11D386376005B04A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				173B6CFE1D3E1A18007DF4D9 /* UIColor.swift */,
+				173B6D001D3E1AEA007DF4D9 /* UIFont.swift */,
+				173B6D0C1D3E2075007DF4D9 /* UIScrollView.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		172185D21D3863CA005B04A6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		172185D31D3863E1005B04A6 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Activities;
+			sourceTree = "<group>";
+		};
+		172185D41D386401005B04A6 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		172185D51D38641D005B04A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17F884591D3C501D00FA6C67 /* GoogleService-Info.plist */,
+				72E76DAB1C9AEF7800324565 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		173B6CEF1D3DEBA9007DF4D9 /* to use laterfeedvc/socialList/home */ = {
+			isa = PBXGroup;
+			children = (
+				170C2A701D014AD4005B9637 /* FeedVC.swift */,
+				72E76DB31C9AF2AB00324565 /* SocialList.swift */,
+				72E76DA11C9AEF7800324565 /* Home.swift */,
+			);
+			name = "to use laterfeedvc/socialList/home";
+			sourceTree = "<group>";
+		};
+		173B6CF51D3E1854007DF4D9 /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				173B6D021D3E1B8F007DF4D9 /* FeedsViewController.swift */,
+				173B6D101D3E4722007DF4D9 /* ads.swift */,
+			);
+			name = Feeds;
+			sourceTree = "<group>";
+		};
+		173B6CF61D3E185C007DF4D9 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				173B6D061D3E1BE6007DF4D9 /* DiscoverViewController.swift */,
+				173B6D0E1D3E235F007DF4D9 /* DiscoverCollectionView.swift */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		173B6CF71D3E1867007DF4D9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				173B6D081D3E1C0C007DF4D9 /* ProfileViewController.swift */,
+				17CB9EC61D3F7B7C001086AC /* EditProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		173B6CF81D3E18D3007DF4D9 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				173B6D041D3E1BB5007DF4D9 /* ContactsViewController.swift */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		173B6CF91D3E194E007DF4D9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				173B6CFA1D3E1984007DF4D9 /* SegueViewController.swift */,
+				173B6CFC1D3E19BB007DF4D9 /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		173B6D141D3E4DC5007DF4D9 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				173B6D121D3E4D90007DF4D9 /* BraveNavigationController.swift */,
+			);
+			name = Nav;
 			sourceTree = "<group>";
 		};
 		1799ADB61D022F8C00E3B158 /* BraveTests */ = {
@@ -265,6 +486,50 @@
 			path = BraveUITests;
 			sourceTree = "<group>";
 		};
+		179CDCD81D2EE49D00255002 /* Presestence */ = {
+			isa = PBXGroup;
+			children = (
+				179CDCDB1D2EE76700255002 /* RealimConfigs.swift */,
+				1741A4F21D40AC0200A67653 /* Models.swift */,
+			);
+			name = Presestence;
+			sourceTree = "<group>";
+		};
+		179CDCDD1D2EE93B00255002 /* BraveConfig */ = {
+			isa = PBXGroup;
+			children = (
+				179CDCDE1D2EE96900255002 /* BraveConfig.swift */,
+			);
+			name = BraveConfig;
+			sourceTree = "<group>";
+		};
+		179F1F5E1D3995B600F42ACA /* UnusedGroups */ = {
+			isa = PBXGroup;
+			children = (
+				172185D01D386350005B04A6 /* Caches */,
+				172185D11D386376005B04A6 /* Extensions */,
+				172185D21D3863CA005B04A6 /* Protocols */,
+				172185D31D3863E1005B04A6 /* Activities */,
+				172185D41D386401005B04A6 /* Transitions */,
+				172185CD1D38630D005B04A6 /* Shortcuts */,
+				172185CE1D38632B005B04A6 /* Sounds */,
+			);
+			name = UnusedGroups;
+			sourceTree = "<group>";
+		};
+		179F1F641D39D5E500F42ACA /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				170C2A6E1D014AC1005B9637 /* LoginViewController.swift */,
+				179F1F6F1D39DB8A00F42ACA /* ShowStepViewController.swift */,
+				179F1F6B1D39D6B400F42ACA /* ShowStepDescoverViewController.swift */,
+				179F1F731D39DC3B00F42ACA /* ShowStepMatchViewController.swift */,
+				179F1F751D39DC7A00F42ACA /* ShowStepMeetViewController.swift */,
+				171005E21D3CAF7900F8BFBE /* SignUpViewController.swift */,
+			);
+			name = Show;
+			sourceTree = "<group>";
+		};
 		4F607B84AB40765301FB4FD4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,7 +542,9 @@
 		72E76D931C9AEF7800324565 = {
 			isa = PBXGroup;
 			children = (
-				1799ADDA1D0636C500E3B158 /* Default-568h@2x.png */,
+				72E76D9F1C9AEF7800324565 /* AppDelegate.swift */,
+				17F8845D1D3C542400FA6C67 /* Main.storyboard */,
+				1741A4FB1D40C9A100A67653 /* Home.storyboard */,
 				72E76D9E1C9AEF7800324565 /* Brave */,
 				1799ADB61D022F8C00E3B158 /* BraveTests */,
 				1799ADC41D022F9600E3B158 /* BraveUITests */,
@@ -300,17 +567,24 @@
 		72E76D9E1C9AEF7800324565 /* Brave */ = {
 			isa = PBXGroup;
 			children = (
-				170C2A571D014A66005B9637 /* Services */,
+				172185D51D38641D005B04A6 /* Supporting Files */,
 				170C2A521D0148B6005B9637 /* Util */,
-				170C2A531D0149B2005B9637 /* Resources */,
+				170C2A561D0149E2005B9637 /* ViewController */,
 				170C2A541D0149BE005B9637 /* Model */,
+				179CDCD81D2EE49D00255002 /* Presestence */,
+				170C2A571D014A66005B9637 /* Services */,
+				172185CF1D38633D005B04A6 /* Healpers */,
 				170C2A551D0149C9005B9637 /* View */,
-				72E76DA31C9AEF7800324565 /* Main.storyboard */,
-				170C2A561D0149E2005B9637 /* Controller */,
+				179F1F5E1D3995B600F42ACA /* UnusedGroups */,
+				179CDCDD1D2EE93B00255002 /* BraveConfig */,
+				170C2A531D0149B2005B9637 /* Resources */,
 				72E76DA61C9AEF7800324565 /* Assets.xcassets */,
-				1799ADAB1D01FE0200E3B158 /* GoogleService-Info.plist */,
+				173B6CE81D3DB66D007DF4D9 /* ProgressHUD.bundle */,
+				173B6CE91D3DB66D007DF4D9 /* ProgressHUD.h */,
+				173B6CEA1D3DB66D007DF4D9 /* ProgressHUD.m */,
+				173B6CE71D3DB66C007DF4D9 /* Brave-Bridging-Header.h */,
+				173B6CED1D3DE233007DF4D9 /* datamodel.js */,
 				72E76DEE1C9B138900324565 /* Frameworks */,
-				72E76DAB1C9AEF7800324565 /* Info.plist */,
 			);
 			name = Brave;
 			path = Socialz;
@@ -343,9 +617,10 @@
 		72E76DEE1C9B138900324565 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				171422A41D3C0D390094F7CF /* FBSDKShareKit.framework */,
+				171422A21D3C0D300094F7CF /* FBSDKLoginKit.framework */,
+				171422A01D3C02610094F7CF /* FBSDKCoreKit.framework */,
 				1799ADA51D01FD3600E3B158 /* Bolts.framework */,
-				1799ADA61D01FD3600E3B158 /* FBSDKCoreKit.framework */,
-				1799ADA71D01FD3600E3B158 /* FBSDKLoginKit.framework */,
 				72E76DEC1C9B138000324565 /* SystemConfiguration.framework */,
 				72E76DE81C9B137800324565 /* MessageUI.framework */,
 				72E76DE61C9B136A00324565 /* EventKitUI.framework */,
@@ -364,6 +639,7 @@
 		9A6ADA9EFF928C89A540FCC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1741A4F71D40B7CA00A67653 /* CoreSpotlight.framework */,
 				C288401AE81049D727D4E1F9 /* Pods_Brave.framework */,
 			);
 			name = Frameworks;
@@ -458,7 +734,7 @@
 				};
 			};
 			buildConfigurationList = 72E76D971C9AEF7800324565 /* Build configuration list for PBXProject "Brave" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -501,23 +777,25 @@
 				72E76DCE1C9AFE9C00324565 /* Titillium-LightUpright.otf in Resources */,
 				72E76DD31C9AFE9C00324565 /* Titillium-SemiboldItalic.otf in Resources */,
 				170C2A601D014A8A005B9637 /* NotoSans-Bold.ttf in Resources */,
-				1799ADDB1D0636C500E3B158 /* Default-568h@2x.png in Resources */,
 				72E76DD11C9AFE9C00324565 /* Titillium-RegularUpright.otf in Resources */,
 				72E76DD41C9AFE9C00324565 /* Titillium-SemiboldUpright.otf in Resources */,
+				17F8845B1D3C542400FA6C67 /* Main.storyboard in Resources */,
 				72E76DD71C9AFE9C00324565 /* Titillium-ThinUpright.otf in Resources */,
 				72E76DCB1C9AFE9C00324565 /* Titillium-BoldUpright.otf in Resources */,
 				72E76DD51C9AFE9C00324565 /* Titillium-Thin.otf in Resources */,
 				72E76DC91C9AFE9C00324565 /* Titillium-Bold.otf in Resources */,
+				173B6CEE1D3DE233007DF4D9 /* datamodel.js in Resources */,
 				72E76DCF1C9AFE9C00324565 /* Titillium-Regular.otf in Resources */,
 				170C2A611D014A8A005B9637 /* NotoSans-BoldItalic.ttf in Resources */,
 				72E76DCA1C9AFE9C00324565 /* Titillium-BoldItalic.otf in Resources */,
 				170C2A631D014A8A005B9637 /* NotoSans-Regular.ttf in Resources */,
+				173B6CEB1D3DB66D007DF4D9 /* ProgressHUD.bundle in Resources */,
 				72E76DA71C9AEF7800324565 /* Assets.xcassets in Resources */,
-				72E76DA51C9AEF7800324565 /* Main.storyboard in Resources */,
+				17F8845A1D3C501D00FA6C67 /* GoogleService-Info.plist in Resources */,
 				72E76DD21C9AFE9C00324565 /* Titillium-Semibold.otf in Resources */,
 				72E76DD01C9AFE9C00324565 /* Titillium-RegularItalic.otf in Resources */,
-				1799ADAC1D01FE0200E3B158 /* GoogleService-Info.plist in Resources */,
 				170C2A621D014A8A005B9637 /* NotoSans-Italic.ttf in Resources */,
+				1741A4F91D40C9A100A67653 /* Home.storyboard in Resources */,
 				72E76DC81C9AFE9C00324565 /* Titillium-Black.otf in Resources */,
 				72E76DCC1C9AFE9C00324565 /* Titillium-Light.otf in Resources */,
 			);
@@ -594,19 +872,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1741A4EB1D409F1B00A67653 /* ShareProfileView.swift in Sources */,
 				72E76DA21C9AEF7800324565 /* Home.swift in Sources */,
+				173B6CFF1D3E1A18007DF4D9 /* UIColor.swift in Sources */,
+				179F1F741D39DC3B00F42ACA /* ShowStepMatchViewController.swift in Sources */,
+				1708FE9F1D3DA0CD00E348F2 /* TabBarViewController.swift in Sources */,
 				72E76DA01C9AEF7800324565 /* AppDelegate.swift in Sources */,
 				170C2A6C1D014AAC005B9637 /* MaterialTextField.swift in Sources */,
+				173B6D091D3E1C0C007DF4D9 /* ProfileViewController.swift in Sources */,
+				173B6D031D3E1B8F007DF4D9 /* FeedsViewController.swift in Sources */,
+				173B6CFD1D3E19BB007DF4D9 /* BaseViewController.swift in Sources */,
 				72E76DB41C9AF2AB00324565 /* SocialList.swift in Sources */,
+				1741A4F31D40AC0200A67653 /* Models.swift in Sources */,
+				173B6D181D3EC3E4007DF4D9 /* configs.swift in Sources */,
 				72E76DB21C9AF28F00324565 /* Configs.swift in Sources */,
-				170C2A591D014A79005B9637 /* DataService.swift in Sources */,
+				170C2A591D014A79005B9637 /* DataaService.swift in Sources */,
+				173B6CEC1D3DB66D007DF4D9 /* ProgressHUD.m in Sources */,
+				179F1F6C1D39D6B400F42ACA /* ShowStepDescoverViewController.swift in Sources */,
+				173B6D0D1D3E2075007DF4D9 /* UIScrollView.swift in Sources */,
+				179F1F701D39DB8A00F42ACA /* ShowStepViewController.swift in Sources */,
+				1741A4EF1D40A0ED00A67653 /* BraveAlert.swift in Sources */,
 				170C2A711D014AD4005B9637 /* FeedVC.swift in Sources */,
-				170C2A6F1D014AC1005B9637 /* ViewController.swift in Sources */,
+				170C2A6F1D014AC1005B9637 /* LoginViewController.swift in Sources */,
 				170C2A6B1D014AAC005B9637 /* MaterialButton.swift in Sources */,
+				173B6D111D3E4722007DF4D9 /* ads.swift in Sources */,
+				179F1F761D39DC7A00F42ACA /* ShowStepMeetViewController.swift in Sources */,
 				170C2A651D014A9C005B9637 /* Post.swift in Sources */,
+				171005E31D3CAF7900F8BFBE /* SignUpViewController.swift in Sources */,
+				173B6D071D3E1BE6007DF4D9 /* DiscoverViewController.swift in Sources */,
+				173B6D131D3E4D90007DF4D9 /* BraveNavigationController.swift in Sources */,
+				173B6CFB1D3E1984007DF4D9 /* SegueViewController.swift in Sources */,
+				171005E51D3D529100F8BFBE /* DataService.swift in Sources */,
 				170C2A6D1D014AAC005B9637 /* PostCell.swift in Sources */,
+				173B6CF11D3DF46D007DF4D9 /* Helper.swift in Sources */,
+				1741A4F11D40A3CA00A67653 /* UIModels.swift in Sources */,
 				170C2A5B1D014A80005B9637 /* Constants.swift in Sources */,
+				1741A4ED1D409FFB00A67653 /* CancelableTask.swift in Sources */,
+				173B6D0F1D3E235F007DF4D9 /* DiscoverCollectionView.swift in Sources */,
+				173B6D011D3E1AEA007DF4D9 /* UIFont.swift in Sources */,
+				179CDCDF1D2EE96900255002 /* BraveConfig.swift in Sources */,
+				17CB9EC71D3F7B7C001086AC /* EditProfileViewController.swift in Sources */,
 				170C2A6A1D014AAC005B9637 /* MaterialView.swift in Sources */,
+				179CDCDC1D2EE76700255002 /* RealimConfigs.swift in Sources */,
+				173B6D051D3E1BB5007DF4D9 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,10 +934,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		72E76DA31C9AEF7800324565 /* Main.storyboard */ = {
+		1741A4FB1D40C9A100A67653 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				72E76DA41C9AEF7800324565 /* Base */,
+				1741A4FA1D40C9A100A67653 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		17F8845D1D3C542400FA6C67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17F8845C1D3C542400FA6C67 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -708,7 +1024,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ramidebbas92@gmail.com (HU2RFMK8CM)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -753,7 +1071,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -779,20 +1099,25 @@
 			baseConfigurationReference = FF9118C0874E695FA472A580 /* Pods-Brave.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Socialz",
 					"$(PROJECT_DIR)",
+					"/Users/ramidebbas/Desktop/FacebookSDKs-iOS-4.14.0",
 				);
 				INFOPLIST_FILE = Socialz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.domain.Brave;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brave.ios;
 				PRODUCT_NAME = Brave;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Socialz/Brave-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -801,20 +1126,25 @@
 			baseConfigurationReference = E6AA3DB6443DD9E785CD001C /* Pods-Brave.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Socialz",
 					"$(PROJECT_DIR)",
+					"/Users/ramidebbas/Desktop/FacebookSDKs-iOS-4.14.0",
 				);
 				INFOPLIST_FILE = Socialz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.domain.Brave;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brave.ios;
 				PRODUCT_NAME = Brave;
 				PROVISIONING_PROFILE = "";
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Socialz/Brave-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

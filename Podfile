@@ -6,7 +6,11 @@ target 'Brave' do
   use_frameworks!
 
   # Pods for Brave
-pod 'Firebase', '>= 2.3.3'
+pod 'Firebase'
+pod 'Firebase/Database’
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
 pod 'Alamofire', '~> 3.4'
-
+pod 'RealmSwift'
 end
